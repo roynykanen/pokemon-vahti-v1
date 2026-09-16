@@ -1,0 +1,39 @@
+name: Pokemon-vahti
+
+on:
+  schedule:
+    # Ajastettu tarkistus 10 minuutin välein. GitHub Actionsin cron-ajastus
+    # ei ole täysin tarkka piikkiaikoina eikä ensimmäinen laukaisu heti
+    # työnkulun luonnin jälkeen - todellinen väli voi vaihdella.
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: pokemon-vahti
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Palauta aiempi tila (state.json)
+        uses: actions/cache@v4
+        with:
+          path: data/state.json
+          key: pokemon-vahti-state-${{ github.run_id }}
+          restore-keys: |
+            pokemon-vahti-state-
+
+      - run: npm ci
+
+      - name: Tarkista kaupat ja ilmoita Discordiin
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: npm run check

@@ -1,0 +1,111 @@
+{
+  "intervalMinutes": 10,
+  "keywords": [
+    "30th anniversary",
+    "30-vuotisjuhla",
+    "celebrations",
+    "Ascended Heroes",
+    "Destined Rivals",
+    "151",
+    "Prismatic Evolutions"
+  ],
+  "shops": [
+    {
+      "id": "kevins-hobby-shop",
+      "name": "Kevin's Hobby Shop",
+      "baseUrl": "https://kevinshobbyshop.com",
+      "platform": "auto"
+    },
+    {
+      "id": "korttistoppi",
+      "name": "Korttistoppi",
+      "baseUrl": "https://korttistoppi.fi",
+      "platform": "auto"
+    },
+    {
+      "id": "pokepulls",
+      "name": "PokePulls",
+      "baseUrl": "https://pokepulls.com",
+      "platform": "auto"
+    },
+    {
+      "id": "infinity-prints-tcg",
+      "name": "Infinity Prints TCG",
+      "baseUrl": "https://www.infinityprints-tcg.com",
+      "platform": "auto"
+    },
+    {
+      "id": "block-house-games",
+      "name": "Block House Games",
+      "baseUrl": "https://blockhousegames.net",
+      "platform": "auto"
+    },
+    {
+      "id": "maxgaming",
+      "name": "MaxGaming",
+      "baseUrl": "https://www.maxgaming.fi",
+      "platform": "auto"
+    },
+    {
+      "id": "alpha-games",
+      "name": "Alpha Games",
+      "baseUrl": "https://alphagames.fi",
+      "platform": "auto"
+    },
+    {
+      "id": "vpd",
+      "name": "VPD",
+      "baseUrl": "https://vpd.fi",
+      "platform": "auto"
+    },
+    {
+      "id": "pelimies",
+      "name": "Pelimies",
+      "baseUrl": "https://pelimies.fi",
+      "platform": "auto"
+    },
+    {
+      "id": "muksumassi",
+      "name": "Muksumassi",
+      "baseUrl": "https://muksumassi.fi",
+      "platform": "auto"
+    },
+    {
+      "id": "swagykarp",
+      "name": "Swagykarp",
+      "baseUrl": "https://swagykarp.com",
+      "platform": "auto"
+    },
+    {
+      "id": "verkkokauppa-com",
+      "name": "Verkkokauppa.com",
+      "baseUrl": "https://www.verkkokauppa.com",
+      "platform": "html",
+      "searchUrlTemplate": "{baseUrl}/fi/search/{query}",
+      "note": "Ei Shopify-alusta. searchUrlTemplate ja mahdolliset html-selektorit kannattaa varmistaa/testata oikeaa sivua vasten."
+    },
+    {
+      "id": "tcg-kauppa",
+      "name": "TCG Kauppa",
+      "baseUrl": "https://tcgkauppa.fi",
+      "platform": "auto"
+    },
+    {
+      "id": "prisma",
+      "name": "Prisma",
+      "baseUrl": "https://www.prisma.fi",
+      "platform": "html",
+      "searchUrlTemplate": "https://www.prisma.fi/kategoriat/1559/kerailykortit-ja-tuotteet",
+      "note": "Ei hakusanakohtaista hakuosoitetta - käyttää kiinteää keräilykorttien kategoriasivua (vahvistettu käyttäjältä), jonka sisältöä verrataan kaikkiin hakusanoihin."
+    },
+    {
+      "id": "citymarket",
+      "name": "Citymarket",
+      "baseUrl": "https://www.k-ruoka.fi",
+      "platform": "html",
+      "searchUrlTemplate": "https://www.k-ruoka.fi/kauppa/tuotehaku/kirjat-lehdet-ja-paperitarvikkeet/kerailykortit",
+      "note": "Citymarket kuuluu K-ryhmään, verkkokauppa on k-ruoka.fi. Käyttää kiinteää keräilykorttien kategoriasivua (vahvistettu käyttäjältä), ei hakusanakohtaista hakuosoitetta."
+    }
+  ],
+  "watchedProducts": []
+}

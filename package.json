@@ -1,0 +1,28 @@
+{
+  "name": "pokemon-vahti",
+  "version": "1.0.0",
+  "description": "Seuraa Pokemon-tuotteiden saatavuutta suomalaisissa (ja muissa) verkkokaupoissa ja ilmoittaa Discordiin kun tuote tulee saataville.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check": "tsx src/index.ts --once",
+    "check-robots": "node scripts/check-robots.mjs",
+    "watch": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^5.0.1"
+  }
+}
