@@ -113,6 +113,14 @@
       "platform": "html",
       "searchUrlTemplate": "https://www.karkkainen.com/verkkokauppa/kerailykortit",
       "note": "Käyttää kiinteää keräilykorttien kategoriasivua (vahvistettu käyttäjältä), ei hakusanakohtaista hakuosoitetta. Alusta/selektorit eivät ole muuten varmistettuja - jos ei tuota osumia, tarkista sivun rakenne ja lisää tarvittaessa html-selektorit."
+    },
+    {
+      "id": "lelukauppa-partanen",
+      "name": "Lelukauppa Partanen",
+      "baseUrl": "https://lelupartanen.fi/",
+      "platform": "html",
+      "searchUrlTemplate": "https://lelupartanen.fi/category/202/keraeilykortit",
+      "note": "Käyttää kiinteää keräilykorttien kategoriasivua (vahvistettu käyttäjältä), ei hakusanakohtaista hakuosoitetta. Alusta/selektorit eivät ole muuten varmistettuja - jos ei tuota osumia, tarkista sivun rakenne ja lisää tarvittaessa html-selektorit."
     }
   ],
   "watchedProducts": []
