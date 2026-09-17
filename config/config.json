@@ -105,6 +105,14 @@
       "platform": "html",
       "searchUrlTemplate": "https://www.k-ruoka.fi/kauppa/tuotehaku/kirjat-lehdet-ja-paperitarvikkeet/kerailykortit",
       "note": "Citymarket kuuluu K-ryhmään, verkkokauppa on k-ruoka.fi. Käyttää kiinteää keräilykorttien kategoriasivua (vahvistettu käyttäjältä), ei hakusanakohtaista hakuosoitetta."
+    },
+    {
+      "id": "karkkainen",
+      "name": "Kärkkäinen",
+      "baseUrl": "https://www.karkkainen.com",
+      "platform": "html",
+      "searchUrlTemplate": "https://www.karkkainen.com/verkkokauppa/kerailykortit",
+      "note": "Käyttää kiinteää keräilykorttien kategoriasivua (vahvistettu käyttäjältä), ei hakusanakohtaista hakuosoitetta. Alusta/selektorit eivät ole muuten varmistettuja - jos ei tuota osumia, tarkista sivun rakenne ja lisää tarvittaessa html-selektorit."
     }
   ],
   "watchedProducts": []
