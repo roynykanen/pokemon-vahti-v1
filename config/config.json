@@ -117,9 +117,81 @@
     {
       "id": "lelukauppa-partanen",
       "name": "Lelukauppa Partanen",
-      "baseUrl": "https://lelupartanen.fi/",
+      "baseUrl": "https://lelupartanen.fi",
       "platform": "html",
       "searchUrlTemplate": "https://lelupartanen.fi/category/202/keraeilykortit",
+      "note": "Käyttää kiinteää keräilykorttien kategoriasivua (vahvistettu käyttäjältä), ei hakusanakohtaista hakuosoitetta. Alusta/selektorit eivät ole muuten varmistettuja - jos ei tuota osumia, tarkista sivun rakenne ja lisää tarvittaessa html-selektorit."
+    },
+    {
+      "id": "porvoon-pelikauppa",
+      "name": "Porvoon Pelikauppa",
+      "baseUrl": "https://porvoonpelikauppa.fi",
+      "platform": "html",
+      "searchUrlTemplate": "https://porvoonpelikauppa.fi/pokemon",
+      "note": "Käyttää kiinteää keräilykorttien kategoriasivua (vahvistettu käyttäjältä), ei hakusanakohtaista hakuosoitetta. Alusta/selektorit eivät ole muuten varmistettuja - jos ei tuota osumia, tarkista sivun rakenne ja lisää tarvittaessa html-selektorit."
+    },
+    {
+      "id": "poromagia",
+      "name": "Poromagia",
+      "baseUrl": "https://poromagia.com/fi",
+      "platform": "html",
+      "searchUrlTemplate": "https://poromagia.com/fi/catalogue/category/pokemon/pokemon-tuotepakkaukset_234",
+      "note": "Käyttää kiinteää keräilykorttien kategoriasivua (vahvistettu käyttäjältä), ei hakusanakohtaista hakuosoitetta. Alusta/selektorit eivät ole muuten varmistettuja - jos ei tuota osumia, tarkista sivun rakenne ja lisää tarvittaessa html-selektorit."
+    },
+    {
+      "id": "puolenkuun-pelit",
+      "name": "Puolenkuun Pelit",
+      "baseUrl": "https://www.puolenkuunpelit.com",
+      "platform": "html",
+      "searchUrlTemplate": "https://www.puolenkuunpelit.com/kauppa/default.php?cPath=31_168",
+      "note": "Käyttää kiinteää keräilykorttien kategoriasivua (vahvistettu käyttäjältä), ei hakusanakohtaista hakuosoitetta. Alusta/selektorit eivät ole muuten varmistettuja - jos ei tuota osumia, tarkista sivun rakenne ja lisää tarvittaessa html-selektorit."
+    },
+    {
+      "id": "xs-lelut",
+      "name": "XS Lelut",
+      "baseUrl": "https://www.xslelut.fi",
+      "platform": "html",
+      "searchUrlTemplate": "https://www.xslelut.fi/category/promotion/promo10",
+      "note": "Käyttää kiinteää keräilykorttien kategoriasivua (vahvistettu käyttäjältä), ei hakusanakohtaista hakuosoitetta. Alusta/selektorit eivät ole muuten varmistettuja - jos ei tuota osumia, tarkista sivun rakenne ja lisää tarvittaessa html-selektorit."
+    },
+    {
+      "id": "muovitukku",
+      "name": "Muovitukku",
+      "baseUrl": "https://www.muovitukku.fi",
+      "platform": "html",
+      "searchUrlTemplate": "https://www.muovitukku.fi/tuote-osasto/pelit/kerailykortit",
+      "note": "Käyttää kiinteää keräilykorttien kategoriasivua (vahvistettu käyttäjältä), ei hakusanakohtaista hakuosoitetta. Alusta/selektorit eivät ole muuten varmistettuja - jos ei tuota osumia, tarkista sivun rakenne ja lisää tarvittaessa html-selektorit."
+    },
+    {
+      "id": "poke-korner",
+      "name": "Poke Korner",
+      "baseUrl": "https://www.pokekorner.fi",
+      "platform": "html",
+      "searchUrlTemplate": "https://www.pokekorner.fi/kauppa",
+      "note": "Käyttää kiinteää keräilykorttien kategoriasivua (vahvistettu käyttäjältä), ei hakusanakohtaista hakuosoitetta. Alusta/selektorit eivät ole muuten varmistettuja - jos ei tuota osumia, tarkista sivun rakenne ja lisää tarvittaessa html-selektorit."
+    },
+    {
+      "id": "fantasiapelit",
+      "name": "Fantasiapelit",
+      "baseUrl": "https://www.fantasiapelit.fi",
+      "platform": "html",
+      "searchUrlTemplate": "https://www.fantasiapelit.com/index.php?main=ai&kat=kaikki&etsittava=&mista=tuotteen_nimi&yhteen=&jamista=&jamika=&on_peli=Pokemon&jarj=tuotteen_nimi&offset=0",
+      "note": "Käyttää kiinteää keräilykorttien kategoriasivua (vahvistettu käyttäjältä), ei hakusanakohtaista hakuosoitetta. Alusta/selektorit eivät ole muuten varmistettuja - jos ei tuota osumia, tarkista sivun rakenne ja lisää tarvittaessa html-selektorit."
+    },
+    {
+      "id": "oh-my-game",
+      "name": "Oh My Game",
+      "baseUrl": "https://ohmygame.fi",
+      "platform": "html",
+      "searchUrlTemplate": "https://ohmygame.fi/card-games/pokemon",
+      "note": "Käyttää kiinteää keräilykorttien kategoriasivua (vahvistettu käyttäjältä), ei hakusanakohtaista hakuosoitetta. Alusta/selektorit eivät ole muuten varmistettuja - jos ei tuota osumia, tarkista sivun rakenne ja lisää tarvittaessa html-selektorit."
+    },
+    {
+      "id": "konsolinet",
+      "name": "Konsolinet",
+      "baseUrl": "https://www.konsolinet.fi",
+      "platform": "html",
+      "searchUrlTemplate": "https://www.konsolinet.fi/category/207/pokemon-kortit",
       "note": "Käyttää kiinteää keräilykorttien kategoriasivua (vahvistettu käyttäjältä), ei hakusanakohtaista hakuosoitetta. Alusta/selektorit eivät ole muuten varmistettuja - jos ei tuota osumia, tarkista sivun rakenne ja lisää tarvittaessa html-selektorit."
     }
   ],
