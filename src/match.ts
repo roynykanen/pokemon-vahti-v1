@@ -55,6 +55,7 @@ const IN_STOCK_PATTERNS = [
   "add to basket",
   "in stock",
   "buy now",
+  "heti saatavilla"
 ];
 
 const OUT_OF_STOCK_PATTERNS = [
@@ -70,6 +71,7 @@ const OUT_OF_STOCK_PATTERNS = [
   "unavailable",
   "notify me",
   "ilmoita kun saatavilla",
+  "loppu varastosta"
 ];
 
 /**
